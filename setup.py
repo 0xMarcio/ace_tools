@@ -1,9 +1,15 @@
 from setuptools import setup, find_packages
+from pathlib import Path
+
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
-    name="acetools",
+    name="forgekit",
     version="1.0.0",
     description="A collection of handy tools for data handling, visualization, and reporting.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author="0xMarc",
     author_email="marc@codepwn.win",
     packages=find_packages(),
@@ -15,8 +21,8 @@ setup(
         "scikit-learn>=1.5.2",
     ],
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: MIT License",
+        "Programming Language :: python3 :: 3",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.12',

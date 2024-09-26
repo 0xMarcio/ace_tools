@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
-class AceTools:
+class ForgeKit:
     """A collection of handy tools for efficient data handling, visualization, and reporting."""
 
     # ---------------- Data Display and Summary ---------------- #

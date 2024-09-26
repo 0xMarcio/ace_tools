@@ -1,6 +1,6 @@
-# ace_tools
+# forgekit
 
-**ace_tools** is a Python package designed to simplify data handling, visualization, and reporting. It provides a wide range of functions for cleaning, transforming, visualizing data, and performing machine learning tasks.
+**forgekit** is a python3 package designed to simplify data handling, visualization, and reporting. It provides a wide range of functions for cleaning, transforming, visualizing data, and performing machine learning tasks.
 
 ## Features
 
@@ -13,34 +13,34 @@
 
 ## Installation
 
-You can install **ace_tools** by cloning the repository and installing it locally.
+You can install **forgekit** by cloning the repository and installing it locally.
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ace_tools.git
+   git clone https://github.com/yourusername/forgekit.git
    ```
 
 2. Navigate to the package directory and install it:
 
    ```bash
-   cd ace_tools
-   pip install .
+   cd forgekit
+   pip3 install .
    ```
 
 3. Alternatively, install dependencies directly from `requirements.txt`:
 
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 ## Usage
 
-Here’s an example of how to use **ace_tools**:
+Here’s an example of how to use **forgekit**:
 
 ```python
 import pandas as pd
-from ace_tools import AceTools
+from forgekit import ForgeKit
 
 # Sample data
 data = {
@@ -50,10 +50,10 @@ data = {
 df = pd.DataFrame(data)
 
 # Display the DataFrame
-AceTools.display_dataframe(df)
+ForgeKit.display_dataframe(df)
 
 # Plot the DataFrame
-AceTools.plot_dataframe(df, kind='bar', title="Domain Prices")
+ForgeKit.plot_dataframe(df, kind='bar', title="Domain Prices")
 ```
 
 ## Available Functions
