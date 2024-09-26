@@ -1,6 +1,7 @@
 from setuptools import setup, find_packages
 from pathlib import Path
 
+# Read the contents of the README file
 this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
@@ -21,7 +22,13 @@ setup(
         "scikit-learn>=1.5.2",
     ],
     classifiers=[
-        "Programming Language :: python3 :: 3",
+        "Programming Language :: Python :: 3",       # Correct classifier
+        "Programming Language :: Python :: 3.6",    # Optionally add specific Python versions
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
