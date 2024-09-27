@@ -5,6 +5,7 @@ __pycache__/
 
 # Private quality of life stuff
 *.sh
+data_report.md
 
 # C extensions
 *.so
