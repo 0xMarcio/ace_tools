@@ -18,11 +18,11 @@ Install the package using pip:
 pip install forgekit
 ```
 
-For detailed setup instructions, see [INSTALL.md](INSTALL.md).
+For detailed setup instructions, see [INSTALL.md](https://github.com/0xMarcio/forgekit/blob/main/INSTALL.md).
 
 ## Usage
 
-Here's a simple example of **ForgeKit** in action. For a more comprehensive step-by-step workflow, refer to the `examples.py` file.
+Here's a simple example of **ForgeKit** in action. For a more comprehensive step-by-step workflow, refer to the [examples.py](https://github.com/0xMarcio/forgekit/blob/main/examples.py) file.
 
 ```python
 import pandas as pd
@@ -50,7 +50,7 @@ fk.display_dataframe(df_clustered)
 fk.generate_report(df, file_name='report.md')
 ```
 
-For more usage examples, see the `examples.py` file in the root directory, which includes:
+For more usage examples, see the [examples.py](https://github.com/0xMarcio/forgekit/blob/main/examples.py) file in the root directory, which includes:
 
 - Data normalization and plotting
 - Handling missing values
@@ -93,7 +93,8 @@ Here is an overview of the most commonly used functions in **ForgeKit**:
 
 ## Example Workflow
 
-Here’s a brief example showing how you might use **ForgeKit** in a typical data analysis workflow. For the full script, check out the `examples.py` file.
+Here’s a brief example showing how you might use **ForgeKit** in a typical data analysis workflow. For the full script, check out the [examples.py](https://github.com/0xMarcio/forgekit/blob/main/
+examples.py) file.
 
 ```python
 import pandas as pd
@@ -129,7 +130,7 @@ This workflow demonstrates the ease of use of **ForgeKit** for quickly loading, 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/0xMarcio/forgekit/blob/main/LICENSE) file for details.
 
 ## Contributing
 

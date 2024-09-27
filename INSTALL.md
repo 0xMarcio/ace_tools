@@ -17,7 +17,7 @@ If you prefer to install the package manually, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/0xMarcio/forgekit.git
+   git clone https://github.com/0xMarcio/forgekit
    ```
 
 2. Navigate to the project directory:
@@ -34,7 +34,7 @@ If you prefer to install the package manually, follow these steps:
 
 ## Installing Dependencies
 
-All necessary dependencies are listed in the `requirements.txt` file. If you're installing manually, run:
+All necessary dependencies are listed in the [requirements.txt](https://github.com/0xMarcio/forgekit/blob/main/requirements.txt) file. If you're installing manually, run:
 
 ```bash
 pip install -r requirements.txt
@@ -44,7 +44,7 @@ This ensures that all the required libraries are installed for **forgekit** to f
 
 ## Example Usage
 
-The repository includes a detailed example file, `examples.py`, showcasing a typical workflow using **forgekit**. This file covers:
+The repository includes a detailed example file, [examples.py](https://github.com/0xMarcio/forgekit/blob/main/examples.py), showcasing a typical workflow using **forgekit**. This file covers:
 
 - Data display and summary
 - Missing data handling
@@ -55,7 +55,7 @@ The repository includes a detailed example file, `examples.py`, showcasing a typ
 - Rolling averages
 - Report generation
 
-### Running `examples.py`
+### Running [examples.py](https://github.com/0xMarcio/forgekit/blob/main/examples.py)
 
 To run the example script:
 
