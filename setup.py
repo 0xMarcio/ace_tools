@@ -7,11 +7,15 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="forgekit",
-    version="1.0.3",
+    version="1.0.4",
     description="A collection of handy tools for data handling, visualization, and reporting.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="0xMarc",
+    project_urls={
+        "Source": "https://github.com/0xMarcio/forgekit",
+        "Bug Tracker": "https://github.com/0xMarcio/forgekit/issues",
+    },
     author_email="marc@codepwn.win",
     packages=find_packages(),
     install_requires=[
@@ -20,17 +24,15 @@ setup(
         "matplotlib>=3.9.2",
         "plotly>=5.24.1",
         "scikit-learn>=1.5.2",
+        "tabulate2>=1.9.1"
     ],
     classifiers=[
-        "Programming Language :: Python :: 3",       # Correct classifier
-        "Programming Language :: Python :: 3.6",    # Optionally add specific Python versions
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.12',
+    python_requires='>=3.10',
 )
